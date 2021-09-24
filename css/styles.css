@@ -1,0 +1,279 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+body {
+    background:black;
+    color:white;
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin:10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  color:white;
+}
+
+header, footer {
+  color:white;
+}
+
+h2 {
+  color:white;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-bottom:0px;
+}
+
+input[type=text] {
+  color:red;
+  background:black;
+  border: 2px red solid;
+  padding:2px;
+}
+
+input[type=password] {
+  color:red;
+  background:black;
+  border: 2px red solid;
+  padding:2px;
+}
+
+input[type=text]:focus {
+  border: 2px solid red;
+}
+
+input[type=submit] {
+  text-decoration: none;
+  color: red;
+  background:black;
+  border: solid 2px red;
+  padding: 5px 10px;
+  float: right;
+  font-weight: bold;
+  margin-top:15px;
+}
+
+input[type=submit]:hover {
+  text-decoration: none;
+  color: white;
+  background:red;
+  border: solid 2px red;
+  transition:0.3s;
+  padding: 5px 10px;
+  float: right;
+  font-weight: bold;
+}
+
+textarea {
+  background:black;
+  color:red;
+  border: solid 2px red;
+}
+
+p {
+  margin-top:0px;
+  margin-bottom:10px;
+}
+
+span, strong, .error {
+  color:red;
+}
+
+
+.mainContainer {
+    max-width:1080px;
+    margin:0 auto;
+}
+
+.mainHeader {
+    background:black;
+    padding:20px;
+    border:2px solid red;
+}
+
+.mainSection {
+    background:black;
+    margin-top:10px;
+    display:flex;
+    border:2px solid red;
+}
+
+.mainNav {
+    padding:20px;
+    width:20%;
+    border-right:2px solid red;
+}
+
+.mainContent {
+    padding:20px;
+    width:80%;
+}
+
+.mainFooter {
+    background:black;
+    padding:10px;
+    border:2px solid red;
+    margin-top:10px;
+}
+
+li {
+    list-style: none;
+    padding-left:0px;
+}
+
+ul {
+    padding-left:0px;
+    margin-top:0px;
+}
+
+a {
+    color:red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.guestbook-container {
+  display:flex;
+  align-items: stretch;
+  min-height: 600px;
+  min-width:100%;
+}
+
+.textrutan-message {
+  width: 100%;
+  height: 150px;
+}
+
+.div-containing-message {
+  border:solid 2px red;
+  padding:10px;
+  width:100%;
+  clear: both;
+  overflow: hidden;
+  margin-bottom:10px;
+}
+
+.guestbook-message-delete {
+    text-decoration: none;
+    color: red;
+    border: solid 2px red;
+    padding: 5px 10px;
+    float: right;
+    font-weight: bold;
+}
+
+.guestbook-message-delete:hover {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  transition: 0.3s;
+  padding: 5px 10px;
+  float: right;
+  font-weight: bold;
+}
+
+.right-flexbox {
+  padding-left:20px;
+  border-left: red 1px solid;
+  width:60%;
+}
+
+.left-flexbox {
+  padding-right:25px;
+  width:40%;
+}
+
+.div-containing-message h3, .widget-post h3 {
+  margin-bottom:10px;
+}
+
+.error {
+  color:yellow;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight:700;
+}
+
+
+.widget-post {
+    width:450px;
+    border:solid red 2px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.widget-post:hover, .div-containing-message:hover {
+  border:dotted yellow 2px;
+}
