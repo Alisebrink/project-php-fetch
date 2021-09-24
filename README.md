@@ -5,6 +5,7 @@ This is a page with different PHP functions. It uses javascript and PHP to load 
 ## The problem
 
 In this project I learned how to fetch php with javascript and print it in the browser. I also learned how to work with secure logins and made a guestbook.
+This project is old and it includes some errors that are known to the author. 
 
 ## View it live
 
